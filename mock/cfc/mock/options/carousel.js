@@ -12,7 +12,7 @@ module.exports = function (req, res) {
           html: '<div style="width: 100%; height: 300px; background: #e3e3e3; text-align: center; line-height: 300px;">carousel data</div>'
         },
         {
-          image: 'https://suda.cdn.bcebos.com/amis/images/alice-macaw.jpg'
+          image: 'https://suda.cdn.bcebos.com/xiukun-amis-test/images/alice-macaw.jpg'
         }
       ]
     }

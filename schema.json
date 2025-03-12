@@ -337,7 +337,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "amis Page 渲染器。详情请见：https://aisuda.bce.baidu.com/amis/zh-CN/components/page"
+      "description": "amis Page 渲染器。详情请见：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/page"
     },
     "SchemaClassName": {
       "anyOf": [
@@ -961,7 +961,7 @@
     },
     "SchemaTpl": {
       "type": "string",
-      "description": "支持两种语法，但是不能混着用。分别是：\n\n1. `${xxx}` 或者 `${xxx|upperCase}` 2. `<%= data.xxx %>`\n\n\n更多文档：https://aisuda.bce.baidu.com/amis/zh-CN/docs/concepts/template"
+      "description": "支持两种语法，但是不能混着用。分别是：\n\n1. `${xxx}` 或者 `${xxx|upperCase}` 2. `<%= data.xxx %>`\n\n\n更多文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/docs/concepts/template"
     },
     "SchemaCollection": {
       "anyOf": [
@@ -1025,7 +1025,7 @@
                   "tpl",
                   "html"
                 ],
-                "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/amis/zh-CN/docs/concepts/template"
+                "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/docs/concepts/template"
               }
             }
           },
@@ -2117,7 +2117,7 @@
                   "plain",
                   "text"
                 ],
-                "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/amis/zh-CN/docs/concepts/template"
+                "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/docs/concepts/template"
               }
             }
           },
@@ -2177,7 +2177,7 @@
               "type": {
                 "type": "string",
                 "const": "search-box",
-                "description": "指定为搜索框。\n\n文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/search-box"
+                "description": "指定为搜索框。\n\n文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/search-box"
               }
             }
           },
@@ -4595,7 +4595,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Flex 布局 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/flex"
+      "description": "Flex 布局 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/flex"
     },
     "TplSchema": {
       "type": "object",
@@ -4727,7 +4727,7 @@
             "tpl",
             "html"
           ],
-          "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/amis/zh-CN/docs/concepts/template"
+          "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/docs/concepts/template"
         },
         "testid": {
           "type": "string"
@@ -4835,7 +4835,7 @@
         }
       },
       "additionalProperties": false,
-      "description": "Badge 角标。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/badge"
+      "description": "Badge 角标。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/badge"
     },
     "RemarkSchema": {
       "type": "object",
@@ -6913,7 +6913,7 @@
         },
         "dialog": {
           "$ref": "#/definitions/DialogSchemaBase",
-          "description": "弹框详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/dialog"
+          "description": "弹框详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/dialog"
         },
         "nextCondition": {
           "$ref": "#/definitions/SchemaExpression",
@@ -7454,7 +7454,7 @@
         },
         "drawer": {
           "$ref": "#/definitions/DrawerSchemaBase",
-          "description": "抽出式弹框详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/drawer"
+          "description": "抽出式弹框详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/drawer"
         },
         "nextCondition": {
           "$ref": "#/definitions/SchemaExpression",
@@ -8008,7 +8008,7 @@
         },
         "toast": {
           "$ref": "#/definitions/ToastSchemaBase",
-          "description": "轻提示详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/toast"
+          "description": "轻提示详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/toast"
         }
       },
       "required": [
@@ -10164,7 +10164,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Alert 提示渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/alert"
+      "description": "Alert 提示渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/alert"
     },
     "AudioSchema": {
       "type": "object",
@@ -10340,7 +10340,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Audio 音频渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/audio"
+      "description": "Audio 音频渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/audio"
     },
     "AvatarSchema": {
       "type": "object",
@@ -10742,7 +10742,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Button Group 渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/button-group"
+      "description": "Button Group 渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/button-group"
     },
     "ButtonToolbarSchema": {
       "type": "object",
@@ -10888,7 +10888,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Button Toolar 渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/button-toolbar"
+      "description": "Button Toolar 渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/button-toolbar"
     },
     "CalendarSchema": {
       "type": "object",
@@ -11387,7 +11387,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Card 卡片渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/card"
+      "description": "Card 卡片渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/card"
     },
     "CardBodyField": {
       "allOf": [
@@ -12209,7 +12209,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Cards 卡片集合渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/card"
+      "description": "Cards 卡片集合渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/card"
     },
     "Card2Schema": {
       "type": "object",
@@ -12370,7 +12370,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Card2 新卡片渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/card2"
+      "description": "Card2 新卡片渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/card2"
     },
     "CarouselSchema": {
       "type": "object",
@@ -12634,7 +12634,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Carousel 轮播图渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/carousel"
+      "description": "Carousel 轮播图渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/carousel"
     },
     "ChartSchema": {
       "type": "object",
@@ -12850,7 +12850,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Chart 图表渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/chart"
+      "description": "Chart 图表渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/chart"
     },
     "SchemaFunction": {
       "anyOf": [
@@ -13115,7 +13115,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Collapse 折叠渲染器，格式说明。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/collapse"
+      "description": "Collapse 折叠渲染器，格式说明。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/collapse"
     },
     "CollapseGroupSchema": {
       "type": "object",
@@ -13298,7 +13298,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "CollapseGroup 折叠渲染器，格式说明。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/collapse"
+      "description": "CollapseGroup 折叠渲染器，格式说明。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/collapse"
     },
     "ColorSchema": {
       "type": "object",
@@ -13445,7 +13445,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Color 显示渲染器，格式说明。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/color"
+      "description": "Color 显示渲染器，格式说明。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/color"
     },
     "ContainerSchema": {
       "type": "object",
@@ -13620,7 +13620,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Container 容器渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/container"
+      "description": "Container 容器渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/container"
     },
     "ContainerDraggableConfig": {
       "type": "object",
@@ -13851,7 +13851,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "SwitchContainer 状态容器渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/state-container"
+      "description": "SwitchContainer 状态容器渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/state-container"
     },
     "StateSchema": {
       "type": "object",
@@ -14003,7 +14003,7 @@
           "$ref": "#/definitions/CRUDTableSchema"
         }
       ],
-      "description": "CRUD 增删改查渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/crud"
+      "description": "CRUD 增删改查渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/crud"
     },
     "CRUDCardsSchema": {
       "type": "object",
@@ -19691,7 +19691,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Date 展示渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/date"
+      "description": "Date 展示渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/date"
     },
     "DialogSchema": {
       "type": "object",
@@ -19924,7 +19924,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Dialog 弹框渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/dialog"
+      "description": "Dialog 弹框渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/dialog"
     },
     "DividerSchema": {
       "type": "object",
@@ -20095,7 +20095,7 @@
       "required": [
         "type"
       ],
-      "description": "Divider 分割线渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/divider"
+      "description": "Divider 分割线渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/divider"
     },
     "DrawerSchema": {
       "type": "object",
@@ -20341,7 +20341,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Drawer 抽出式弹框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/drawer"
+      "description": "Drawer 抽出式弹框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/drawer"
     },
     "DropdownButtonSchema": {
       "type": "object",
@@ -20568,7 +20568,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "下拉按钮渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/dropdown-button"
+      "description": "下拉按钮渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/dropdown-button"
     },
     "DropdownButton": {
       "anyOf": [
@@ -21819,7 +21819,7 @@
             },
             "dialog": {
               "$ref": "#/definitions/DialogSchemaBase",
-              "description": "弹框详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/dialog"
+              "description": "弹框详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/dialog"
             },
             "nextCondition": {
               "$ref": "#/definitions/SchemaExpression",
@@ -22141,7 +22141,7 @@
             },
             "drawer": {
               "$ref": "#/definitions/DrawerSchemaBase",
-              "description": "抽出式弹框详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/drawer"
+              "description": "抽出式弹框详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/drawer"
             },
             "nextCondition": {
               "$ref": "#/definitions/SchemaExpression",
@@ -22463,7 +22463,7 @@
             },
             "toast": {
               "$ref": "#/definitions/ToastSchemaBase",
-              "description": "轻提示详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/toast"
+              "description": "轻提示详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/toast"
             }
           },
           "required": [
@@ -24190,7 +24190,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Each 循环功能渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/each"
+      "description": "Each 循环功能渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/each"
     },
     "GridSchema": {
       "type": "object",
@@ -24369,7 +24369,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Grid 格子布局渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/grid"
+      "description": "Grid 格子布局渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/grid"
     },
     "GridColumn": {
       "$ref": "#/definitions/GridColumnObject"
@@ -24707,7 +24707,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "二维布局渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/grid-2d"
+      "description": "二维布局渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/grid-2d"
     },
     "Grid": {
       "allOf": [
@@ -24974,7 +24974,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Hbox 水平布局渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/hbox"
+      "description": "Hbox 水平布局渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/hbox"
     },
     "HBoxColumn": {
       "$ref": "#/definitions/HBoxColumnObject"
@@ -25202,7 +25202,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Icon 图标渲染器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/icon"
+      "description": "Icon 图标渲染器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/icon"
     },
     "IconCheckedSchema": {
       "type": "object",
@@ -25404,7 +25404,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "IFrame 渲染器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/iframe"
+      "description": "IFrame 渲染器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/iframe"
     },
     "ImageSchema": {
       "type": "object",
@@ -25700,7 +25700,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "图片展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/image"
+      "description": "图片展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/image"
     },
     "ImageToolbarAction": {
       "type": "object",
@@ -26034,7 +26034,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "图片集展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/images"
+      "description": "图片集展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/images"
     },
     "JsonSchema": {
       "type": "object",
@@ -26237,7 +26237,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "JSON 数据展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/json"
+      "description": "JSON 数据展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/json"
     },
     "LinkSchema": {
       "type": "object",
@@ -26404,7 +26404,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Link 链接展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/link"
+      "description": "Link 链接展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/link"
     },
     "ListSchema": {
       "type": "object",
@@ -26626,7 +26626,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "List 列表展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/card"
+      "description": "List 列表展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/card"
     },
     "MappingSchema": {
       "type": "object",
@@ -26806,7 +26806,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Mapping 映射展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/mapping"
+      "description": "Mapping 映射展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/mapping"
     },
     "NavSchema": {
       "type": "object",
@@ -27105,7 +27105,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Nav 导航渲染器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/nav"
+      "description": "Nav 导航渲染器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/nav"
     },
     "NavItemSchema": {
       "type": "object",
@@ -43544,7 +43544,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "操作栏渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/operation"
+      "description": "操作栏渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/operation"
     },
     "PaginationSchema": {
       "type": "object",
@@ -43933,7 +43933,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "分页容器功能性渲染器。详情请见：https://aisuda.bce.baidu.com/amis/zh-CN/components/pagination-wrapper"
+      "description": "分页容器功能性渲染器。详情请见：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/pagination-wrapper"
     },
     "PanelSchema": {
       "type": "object",
@@ -44157,7 +44157,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Panel渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/panel"
+      "description": "Panel渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/panel"
     },
     "PlainSchema": {
       "type": "object",
@@ -44289,7 +44289,7 @@
             "plain",
             "text"
           ],
-          "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/amis/zh-CN/docs/concepts/template"
+          "description": "指定为模板渲染器。\n\n文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/docs/concepts/template"
         },
         "testid": {
           "type": "string"
@@ -44313,7 +44313,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Plain 纯文本渲染器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/plain"
+      "description": "Plain 纯文本渲染器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/plain"
     },
     "ProgressSchema": {
       "type": "object",
@@ -44558,7 +44558,7 @@
         "value"
       ],
       "additionalProperties": false,
-      "description": "进度展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/progress"
+      "description": "进度展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/progress"
     },
     "ColorMapType": {
       "anyOf": [
@@ -44778,7 +44778,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "二维码展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/qrcode"
+      "description": "二维码展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/qrcode"
     },
     "QRCodeImageSettings": {
       "type": "object",
@@ -44937,7 +44937,7 @@
         "type": {
           "type": "string",
           "const": "search-box",
-          "description": "指定为搜索框。\n\n文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/search-box"
+          "description": "指定为搜索框。\n\n文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/search-box"
         },
         "testid": {
           "type": "string"
@@ -45191,7 +45191,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Service 服务类控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/service"
+      "description": "Service 服务类控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/service"
     },
     "ComposedDataProvider": {
       "anyOf": [
@@ -45598,7 +45598,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "状态展示控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/status"
+      "description": "状态展示控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/status"
     },
     "StatusSource": {
       "type": "object",
@@ -46158,7 +46158,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Table 表格渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/table"
+      "description": "Table 表格渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/table"
     },
     "TableSchema2": {
       "type": "object",
@@ -46773,7 +46773,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "选项卡控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/tabs"
+      "description": "选项卡控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/tabs"
     },
     "TabSchema": {
       "type": "object",
@@ -47264,7 +47264,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Tasks 渲染器，格式说明 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/tasks"
+      "description": "Tasks 渲染器，格式说明 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/tasks"
     },
     "VBoxSchema": {
       "type": "object",
@@ -47409,7 +47409,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "垂直布局控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/vbox"
+      "description": "垂直布局控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/vbox"
     },
     "HboxRow": {
       "allOf": [
@@ -47650,7 +47650,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "视频播放器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/video"
+      "description": "视频播放器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/video"
     },
     "WizardSchema": {
       "type": "object",
@@ -47818,7 +47818,7 @@
         },
         "api": {
           "$ref": "#/definitions/SchemaApi",
-          "description": "Wizard 用来保存数据的 api。 [详情](https://baidu.github.io/amis/docs/api#wizard)"
+          "description": "Wizard 用来保存数据的 api。 [详情](https://baidu.github.io/xiukun-amis-test/docs/api#wizard)"
         },
         "bulkSubmit": {
           "type": "boolean",
@@ -47901,7 +47901,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "表单向导 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/wizard"
+      "description": "表单向导 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/wizard"
     },
     "WizardStepSchema": {
       "type": "object",
@@ -47916,7 +47916,7 @@
               "$ref": "#/definitions/BaseApiObject"
             }
           ],
-          "description": "Form 用来保存数据的 api。\n\n详情：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/index#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4"
+          "description": "Form 用来保存数据的 api。\n\n详情：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/index#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4"
         },
         "asyncApi": {
           "anyOf": [
@@ -48713,7 +48713,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Wrapper 容器渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/wrapper"
+      "description": "Wrapper 容器渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/wrapper"
     },
     "TooltipWrapperSchema": {
       "type": "object",
@@ -49228,7 +49228,7 @@
               "$ref": "#/definitions/BaseApiObject"
             }
           ],
-          "description": "Form 用来保存数据的 api。\n\n详情：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/index#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4"
+          "description": "Form 用来保存数据的 api。\n\n详情：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/index#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4"
         },
         "feedback": {
           "description": "Form 也可以配置 feedback。"
@@ -49395,7 +49395,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Form 表单渲染器。\n\n说明：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/index"
+      "description": "Form 表单渲染器。\n\n说明：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/index"
     },
     "AnchorNavSchema": {
       "type": "object",
@@ -49564,7 +49564,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "AnchorNav 锚点导航渲染器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/anchor-nav"
+      "description": "AnchorNav 锚点导航渲染器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/anchor-nav"
     },
     "AnchorNavSectionSchema": {
       "type": "object",
@@ -49717,7 +49717,7 @@
       "required": [
         "title"
       ],
-      "description": "AnchorNavSection 锚点区域渲染器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/anchor-nav"
+      "description": "AnchorNavSection 锚点区域渲染器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/anchor-nav"
     },
     "StepsSchema": {
       "type": "object",
@@ -50481,7 +50481,7 @@
         }
       },
       "additionalProperties": false,
-      "description": "栏目容器渲染器。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/portlet"
+      "description": "栏目容器渲染器。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/portlet"
     },
     "TimelineSchema": {
       "type": "object",
@@ -51607,7 +51607,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Control 表单项包裹 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/control"
+      "description": "Control 表单项包裹 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/control"
     },
     "ArrayControlSchema": {
       "type": "object",
@@ -52500,7 +52500,7 @@
         "items"
       ],
       "additionalProperties": false,
-      "description": "InputArray 数组输入框。 combo 的别名。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/array"
+      "description": "InputArray 数组输入框。 combo 的别名。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/array"
     },
     "ButtonGroupControlSchema": {
       "type": "object",
@@ -53410,7 +53410,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "按钮组控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/button-group"
+      "description": "按钮组控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/button-group"
     },
     "Option": {
       "type": "object",
@@ -54356,7 +54356,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "链式下拉框 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/chained-select"
+      "description": "链式下拉框 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/chained-select"
     },
     "CheckboxControlSchema": {
       "type": "object",
@@ -55112,7 +55112,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Checkbox 勾选框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/checkbox"
+      "description": "Checkbox 勾选框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/checkbox"
     },
     "CheckboxesControlSchema": {
       "type": "object",
@@ -56023,7 +56023,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "复选框 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/checkboxes"
+      "description": "复选框 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/checkboxes"
     },
     "InputCityControlSchema": {
       "type": "object",
@@ -56786,7 +56786,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "City 城市选择框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/city"
+      "description": "City 城市选择框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/city"
     },
     "InputColorControlSchema": {
       "type": "object",
@@ -57539,7 +57539,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Color 颜色选择框 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/color"
+      "description": "Color 颜色选择框 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/color"
     },
     "PresetColor": {
       "anyOf": [
@@ -58465,7 +58465,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Combo 组合输入框类型 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/combo"
+      "description": "Combo 组合输入框类型 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/combo"
     },
     "ComboCondition": {
       "type": "object",
@@ -60120,7 +60120,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "条件组合控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/condition-builder"
+      "description": "条件组合控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/condition-builder"
     },
     "ConditionBuilderFuncs": {
       "type": "array",
@@ -61945,7 +61945,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Date日期选择控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/date"
+      "description": "Date日期选择控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/date"
     },
     "ShortCuts": {
       "anyOf": [
@@ -62852,7 +62852,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Datetime日期时间选择控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/datetime"
+      "description": "Datetime日期时间选择控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/datetime"
     },
     "TimeControlSchema": {
       "type": "object",
@@ -63636,7 +63636,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Time 时间选择控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/time"
+      "description": "Time 时间选择控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/time"
     },
     "MonthControlSchema": {
       "type": "object",
@@ -64413,7 +64413,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Month 月份选择控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/Month"
+      "description": "Month 月份选择控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/Month"
     },
     "QuarterControlSchema": {
       "type": "object",
@@ -66791,7 +66791,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "DateRange 日期范围控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/date-range"
+      "description": "DateRange 日期范围控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/date-range"
     },
     "DiffControlSchema": {
       "type": "object",
@@ -67521,7 +67521,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Diff 编辑器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/diff"
+      "description": "Diff 编辑器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/diff"
     },
     "EditorControlSchema": {
       "type": "object",
@@ -68330,7 +68330,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Editor 代码编辑器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/editor"
+      "description": "Editor 代码编辑器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/editor"
     },
     "FieldSetControlSchema": {
       "type": "object",
@@ -69150,7 +69150,7 @@
         "titlePosition"
       ],
       "additionalProperties": false,
-      "description": "FieldSet 表单项集合 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/fieldset"
+      "description": "FieldSet 表单项集合 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/fieldset"
     },
     "FileControlSchema": {
       "type": "object",
@@ -69960,7 +69960,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "File 文件上传控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/file"
+      "description": "File 文件上传控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/file"
     },
     "FormulaControlSchema": {
       "type": "object",
@@ -70695,7 +70695,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "公式功能控件。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/formula"
+      "description": "公式功能控件。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/formula"
     },
     "GroupControlSchema": {
       "type": "object",
@@ -71452,7 +71452,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Group 表单集合渲染器，能让多个表单在一行显示 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/group"
+      "description": "Group 表单集合渲染器，能让多个表单在一行显示 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/group"
     },
     "GroupSubControl": {
       "allOf": [
@@ -72207,7 +72207,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Hidden 隐藏域。功能性组件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/hidden"
+      "description": "Hidden 隐藏域。功能性组件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/hidden"
     },
     "IconPickerControlSchema": {
       "type": "object",
@@ -72926,7 +72926,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "图标选择器 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/icon-picker"
+      "description": "图标选择器 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/icon-picker"
     },
     "ImageControlSchema": {
       "type": "object",
@@ -73806,7 +73806,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Image 图片上传控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/image"
+      "description": "Image 图片上传控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/image"
     },
     "InputGroupControlSchema": {
       "type": "object",
@@ -74549,7 +74549,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "InputGroup 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/input-group"
+      "description": "InputGroup 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/input-group"
     },
     "ListControlSchema": {
       "type": "object",
@@ -75450,7 +75450,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "List 复选框 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/list"
+      "description": "List 复选框 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/list"
     },
     "JSONSchemaEditorControlSchema": {
       "type": "object",
@@ -76224,7 +76224,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "JSON Schema Editor 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/json-schema-editor"
+      "description": "JSON Schema Editor 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/json-schema-editor"
     },
     "SchemaEditorItemPlaceholder": {
       "type": "object",
@@ -77779,7 +77779,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Location 选点组件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/location"
+      "description": "Location 选点组件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/location"
     },
     "UUIDControlSchema": {
       "type": "object",
@@ -78502,7 +78502,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "UUID 功能性组件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/uuid"
+      "description": "UUID 功能性组件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/uuid"
     },
     "MatrixControlSchema": {
       "type": "object",
@@ -79265,7 +79265,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Matrix 选择控件。适合做权限勾选。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/matrix"
+      "description": "Matrix 选择控件。适合做权限勾选。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/matrix"
     },
     "MonthRangeControlSchema": {
       "type": "object",
@@ -80084,7 +80084,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "MonthRange 月范围控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/month-range"
+      "description": "MonthRange 月范围控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/month-range"
     },
     "QuarterRangeControlSchema": {
       "type": "object",
@@ -80903,7 +80903,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "QuarterRange 季度范围控件 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/input-quarter-range"
+      "description": "QuarterRange 季度范围控件 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/input-quarter-range"
     },
     "NestedSelectControlSchema": {
       "type": "object",
@@ -81825,7 +81825,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Nested Select 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/nested-select"
+      "description": "Nested Select 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/nested-select"
     },
     "NumberControlSchema": {
       "type": "object",
@@ -82628,7 +82628,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "数字输入框 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/input-number"
+      "description": "数字输入框 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/input-number"
     },
     "PickerControlSchema": {
       "type": "object",
@@ -83575,7 +83575,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Picker 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/picker"
+      "description": "Picker 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/picker"
     },
     "RadiosControlSchema": {
       "type": "object",
@@ -84460,7 +84460,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Radio 单选框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/radios"
+      "description": "Radio 单选框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/radios"
     },
     "RadioControlSchema": {
       "type": "object",
@@ -85213,7 +85213,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Radio 单选框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/radios"
+      "description": "Radio 单选框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/radios"
     },
     "RangeControlSchema": {
       "type": "object",
@@ -86066,7 +86066,7 @@
           "maxItems": 2
         }
       ],
-      "description": "Range 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/range"
+      "description": "Range 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/range"
     },
     "MultipleValue": {
       "type": "object",
@@ -86868,7 +86868,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Rating 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/rating"
+      "description": "Rating 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/rating"
     },
     "textPositionType": {
       "type": "string",
@@ -87626,7 +87626,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "RichText 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/input-rich-text"
+      "description": "RichText 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/input-rich-text"
     },
     "RepeatControlSchema": {
       "type": "object",
@@ -88348,7 +88348,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Repeat 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/repeat"
+      "description": "Repeat 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/repeat"
     },
     "SelectControlSchema": {
       "type": "object",
@@ -89389,7 +89389,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Select 下拉选择框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/select"
+      "description": "Select 下拉选择框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/select"
     },
     "SubFormControlSchema": {
       "type": "object",
@@ -90302,7 +90302,7 @@
                   "$ref": "#/definitions/BaseApiObject"
                 }
               ],
-              "description": "Form 用来保存数据的 api。\n\n详情：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/index#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4"
+              "description": "Form 用来保存数据的 api。\n\n详情：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/index#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4"
             },
             "feedback": {
               "description": "Form 也可以配置 feedback。"
@@ -90596,7 +90596,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "SubForm 子表单 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/subform"
+      "description": "SubForm 子表单 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/subform"
     },
     "SwitchControlSchema": {
       "type": "object",
@@ -91364,7 +91364,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Switch 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/switch"
+      "description": "Switch 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/switch"
     },
     "StaticExactControlSchema": {
       "type": "object",
@@ -92112,7 +92112,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Static 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/static"
+      "description": "Static 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/static"
     },
     "TableControlSchema": {
       "type": "object",
@@ -94261,7 +94261,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "TabsTransfer 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/tabs-transfer"
+      "description": "TabsTransfer 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/tabs-transfer"
     },
     "TagControlSchema": {
       "type": "object",
@@ -95176,7 +95176,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Tag 输入框 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/tag"
+      "description": "Tag 输入框 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/tag"
     },
     "TextControlSchema": {
       "type": "object",
@@ -97294,7 +97294,7 @@
                 },
                 "dialog": {
                   "$ref": "#/definitions/DialogSchemaBase",
-                  "description": "弹框详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/dialog"
+                  "description": "弹框详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/dialog"
                 },
                 "nextCondition": {
                   "$ref": "#/definitions/SchemaExpression",
@@ -97614,7 +97614,7 @@
                 },
                 "drawer": {
                   "$ref": "#/definitions/DrawerSchemaBase",
-                  "description": "抽出式弹框详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/drawer"
+                  "description": "抽出式弹框详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/drawer"
                 },
                 "nextCondition": {
                   "$ref": "#/definitions/SchemaExpression",
@@ -97934,7 +97934,7 @@
                 },
                 "toast": {
                   "$ref": "#/definitions/ToastSchemaBase",
-                  "description": "轻提示详情 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/toast"
+                  "description": "轻提示详情 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/toast"
                 },
                 "position": {
                   "type": "string",
@@ -99565,7 +99565,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Text 文本输入框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/text"
+      "description": "Text 文本输入框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/text"
     },
     "TextareaControlSchema": {
       "type": "object",
@@ -100317,7 +100317,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "TextArea 多行文本输入框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/textarea"
+      "description": "TextArea 多行文本输入框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/textarea"
     },
     "TransferControlSchema": {
       "type": "object",
@@ -101402,7 +101402,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Transfer 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/transfer"
+      "description": "Transfer 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/transfer"
     },
     "TransferPickerControlSchema": {
       "type": "object",
@@ -102507,7 +102507,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "TransferPicker 穿梭器的弹框形态 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/transfer-picker"
+      "description": "TransferPicker 穿梭器的弹框形态 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/transfer-picker"
     },
     "TabsTransferPickerControlSchema": {
       "type": "object",
@@ -103591,7 +103591,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "TabsTransferPicker 穿梭器的弹框形态 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/tabs-transfer-picker"
+      "description": "TabsTransferPicker 穿梭器的弹框形态 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/tabs-transfer-picker"
     },
     "TreeControlSchema": {
       "type": "object",
@@ -104590,7 +104590,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Tree 下拉选择框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/tree"
+      "description": "Tree 下拉选择框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/tree"
     },
     "TreeSelectControlSchema": {
       "type": "object",
@@ -105550,7 +105550,7 @@
         "type"
       ],
       "additionalProperties": false,
-      "description": "Tree 下拉选择框。 文档：https://aisuda.bce.baidu.com/amis/zh-CN/components/form/tree"
+      "description": "Tree 下拉选择框。 文档：https://aisuda.bce.baidu.com/xiukun-amis-test/zh-CN/components/form/tree"
     },
     "UserSelectControlSchema": {
       "type": "object",
