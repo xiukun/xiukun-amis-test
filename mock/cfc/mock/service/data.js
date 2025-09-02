@@ -32,7 +32,7 @@ module.exports = function (req, res) {
           Math.round(Math.random() * 10)
         ),
         date: Math.round(Date.now() / 1000),
-        image: 'https://suda.cdn.bcebos.com/xiukun-amis-test/images/alice-macaw.jpg'
+        image: 'https://suda.cdn.bcebos.com/amis/images/alice-macaw.jpg'
       })),
 
       table2: repeat(() => ({
@@ -49,7 +49,7 @@ module.exports = function (req, res) {
           Math.round(Math.random() * 10)
         ),
         date: Math.round(Date.now() / 1000),
-        image: 'https://suda.cdn.bcebos.com/xiukun-amis-test/images/alice-macaw.jpg'
+        image: 'https://suda.cdn.bcebos.com/amis/images/alice-macaw.jpg'
       }))
     }
   });

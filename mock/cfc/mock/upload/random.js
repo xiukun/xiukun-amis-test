@@ -15,8 +15,8 @@ module.exports = function(req, res) {
       status: 0,
       msg: '上传成功',
       data: {
-        "value": `http://amis.bj.bcebos.com/xiukun-amis-test/random/${randomNum}`,
-        "url": `http://amis.bj.bcebos.com/xiukun-amis-test/random/${randomNum}`,
+        "value": `http://amis.bj.bcebos.com/amis/random/${randomNum}`,
+        "url": `http://amis.bj.bcebos.com/amis/random/${randomNum}`,
         "filename": `random${randomNum}.js`
       }
     });
